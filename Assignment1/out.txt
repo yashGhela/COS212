@@ -1,0 +1,18 @@
+Prac1:u3(90)->u5(85)->u1(78)->u4(61)->u2(42)
+Prac2:u5(93)->u2(88)->u3(76)->u1(64)->u4(49)
+Prac3:u1(91)->u3(84)->u2(73)->u4(70)->u5(67)
+Prac4:u3(92)->u5(74)->u2(70)->u4(58)->u1(55)
+Prac5:u1(83)->u4(81)->u3(68)->u5(60)->u2(57)
+
+Prac3 stats
+Min:67
+Max:91
+Avg:77.00
+
+u3 stats
+Min:68
+Max:92
+Avg:82.00
+Best Position:1
+Worst Position:3
+
