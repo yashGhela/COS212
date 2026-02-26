@@ -1,9 +1,9 @@
 public class Recursion{
     public static void main(String [] args){
-        sayHi(5);
+        tailRec(5);
     }
 
-    public static void sayHi(int n){ //this is tail recursion 
+    public static void tailRec(int n){ //this is tail recursion 
         if (n<=1){
             return;
         }else if(n%2==0){
