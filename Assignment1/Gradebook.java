@@ -70,6 +70,7 @@ public class Gradebook {
         for (int i = 0; i < assignments.length; i++) {
             insertIntoList(newStudent, i);
     }
+    }
 
     private void insertIntoList(Student s, int i) {
         if (head[i] == null) {
@@ -288,7 +289,7 @@ public class Gradebook {
         }
     }
 
-    public String assignmentStats(String assingment) {
+    public String assignmentStats(String assignment) {
 
         int idx = findAssignment(assignment);
         if (idx == -1) return "";
@@ -317,7 +318,7 @@ public class Gradebook {
         return name + " stats\nMin:" + min + "\nMax:" + max + "\nAvg:" + String.format("%.2f", avg) + "\n";
     }
 
-    public String studentStats(String student) {
+    public String studentStats(String studentNumber) {
 
         Student s = findStudent(studentNumber);
         if (s == null) return "";
@@ -355,7 +356,7 @@ public class Gradebook {
              + "\nBest Position:" + bestPos
              + "\nWorst Position:" + worstPos + "\n";
     }
-}
+
 
 
 private Student findStudent(String studentNumber) {
